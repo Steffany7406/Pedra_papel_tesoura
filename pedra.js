@@ -20,10 +20,10 @@ function jogo() {
     
     // Determine the outcome
     if (jogadorEscolha === computadorEscolha) {
-        alert("Empate do Spock!" + jogadorEscolha + "Vamos de novo? Você começa!");
+        alert("Empate do Spock! " + jogadorEscolha + "\nVamos de novo? Você começa!");
     } else if (gameRules[jogadorEscolha][computadorEscolha]) {
-        alert("Bazinga!! Você venceu! " + jogadorEscolha + " vence " + computadorEscolha + "Vamos de novo?");
+        alert("Bazinga!! Você venceu! " + jogadorEscolha + " vence " + computadorEscolha + "\nVamos de novo?");
     } else {
-        alert("Você perdeu! " + computadorEscolha + " vence " + jogadorEscolha + "Vamos de novo?");
+        alert("Você perdeu! " + computadorEscolha + " vence " + jogadorEscolha + "\nVamos de novo?");
     }
 }
