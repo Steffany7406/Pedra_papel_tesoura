@@ -30,10 +30,17 @@
             color: rgb(255, 0, 0);
             box-sizing: border-box;
         }
+        .game:hover{
+            color: blue;
+        }
         input, button{
             padding: 18px;
             width: 220px;
             border-radius: 8px;
+        }
+        button{
+            cursor: pointer;
+            font-size: 20px;
         }
     </style>
 
@@ -43,7 +50,7 @@
         <h1>Pedra, Papel, Tesoura!</h1>
             <h2>Pronto pro estilo Sheldon?</h2>
                 <br><br><br><br><br><br>
-        <label for="game">Digite sua escolha:</label>
+        <label class="game" for="game">Digite sua escolha:</label>
     <br>
         <input id="play" type="text" placeholder="pedra, papel, tesoura, lagarto, Spock">
     <br><br>
